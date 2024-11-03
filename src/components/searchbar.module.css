@@ -1,0 +1,36 @@
+.searchBar{
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 1px solid var(--border-color);
+    padding: 0.25rem;
+   
+    height: 3rem;
+    
+}
+.imput{
+    font-size: medium;
+    /*width: calc(50vw - 8rem -5rem);
+    width: 10rem;
+    */
+    
+    border:none;
+    border-color:var(--btn-bkg-danger) ;
+    width: 40rem;
+    border-radius: 2rem;
+   background-color:var(--btn-bkg-danger);
+}
+
+.button{
+    background-color:var(--btn-bkg-danger);
+    border: none;
+    border-radius: 8rem;
+    border-color:var(--btn-bkg-danger);
+    color:var(--color-font-global);
+   /* color: var(--btn-bkg-danger);
+   */
+}
+.button:hover{
+    background-color: var(--btn-bkg-danger-hover);
+}
